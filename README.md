@@ -2,7 +2,7 @@
 
 The Microchip [MCP4921](http://www.microchip.com/wwwproducts/en/en020398) and [MCP4922](http://www.microchip.com/wwwproducts/en/en020399) are 12 bit digital to analog converters with an SPI interface. The MCP4921 has one DAC output, the MCP4922 has two.
 
-This library is built around the Arduino default SPI library and uses the designated SPI pins, in addition to a configurable chip select pin, passed in the constructor.
+This library is built around the Arduino default SPI library and uses the designated SPI pins, in addition to a configurable chip select pin, passed in the constructor. It has been updated with support for spi transactions.
 
 ## Usage
 
